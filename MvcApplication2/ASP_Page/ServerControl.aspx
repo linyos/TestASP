@@ -32,6 +32,8 @@
             <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
         </asp:TreeView>
         <br />
+        <script src="JavaScript1.js"></script>
+
 
         <asp:Label ID="lblmessage" runat="server" Text="text" Font-Size ="Large" ForeColor="#ff66ff"></asp:Label>
         <br />
@@ -44,6 +46,7 @@
 <body>
     <div>
 
+        
 
         <asp:Label ID="Label3" runat="server" Text="Label"> 名字: </asp:Label>  &nbsp;  <asp:TextBox ID="TextBox1" runat="server" > </asp:TextBox>
        
@@ -55,6 +58,8 @@
         <br />
         <br />
         <asp:Button  ID = "Button1" runat="server"  Text="提交"  BackColor="#3333ff"  ForeColor="White" OnClick="Button1_Click"  />
+        
+        &nbsp;
         
         <br />
         <br />

@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 
-    <link rel="stylesheet" type ="text/css" href="1.css">
+    <link rel="stylesheet" type ="text/css" href="../1.css">
 </head>
 <body>
   
@@ -15,7 +15,7 @@
     <form id="form1" runat="server">
 
 
-          <script src="JavaScript1.js"></script>
+          <script src="../JavaScript1.js"></script>
 
     <div >
         
@@ -32,7 +32,8 @@
           <br />
           <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Go Page"  />
 
-        &nbsp;  
+        &nbsp;&nbsp;
+          <asp:Button ID="Button3" runat="server" Text="Go Form Page"  OnClick="Button3_Click" />
 
 
 
