@@ -33,12 +33,21 @@ namespace MvcApplication2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string str = "";
-            str += TextBox1.Text + "<br/>";
-            str += TextBox2.Text + "<br/>";
-            str += TextBox3.Text + "<br/>";
 
-            displayrow.InnerHtml = str;
+            if (TextBox1.Text=="" && TextBox2.Text ==""  && TextBox3.Text=="")
+            {
+                displayrow.InnerHtml = "請輸入正確";
+            }
+            else
+            {
+                string str = "";
+                str += TextBox1.Text + "<br/>";
+                str += TextBox2.Text + "<br/>";
+                str += TextBox3.Text + "<br/>";
+
+                displayrow.InnerHtml = str;
+            }
+          
             //Label1.Text = str;
         }
        
