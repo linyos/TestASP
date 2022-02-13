@@ -5,9 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link href="1.css" rel="stylesheet" />
     <title></title>
 
-    <link rel="stylesheet" type ="text/css" href="../1.css">
+
 </head>
 <body>
   
@@ -18,7 +19,7 @@
           <script src="../JavaScript1.js"></script>
 
     <div >
-        
+         <span id ="message" runat="server"></span>
     </div>
         <asp:TextBox ID="TextBox1" runat="server"   BackColor ="Teal"></asp:TextBox>
 &nbsp;&nbsp;
@@ -45,7 +46,20 @@
 
 
         <asp:Calendar ShowTitle="true" runat="server"></asp:Calendar>
+          <br />
+          <br />
+          <br />
+          <br />
+
+
+        
     </form>
+
+
+
+    
+    
+  
 </body>
 </html>
 
