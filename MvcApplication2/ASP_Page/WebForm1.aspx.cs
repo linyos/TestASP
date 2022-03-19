@@ -102,5 +102,10 @@ namespace MvcApplication2
         {
             Response.Redirect("PanelPAge.aspx");
         }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx");
+        }
     }
 }
