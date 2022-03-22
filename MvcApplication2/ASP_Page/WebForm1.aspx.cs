@@ -6,6 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Newtonsoft.Json;
 using System.IO;
+using NXOpen;
+
 namespace MvcApplication2
 {
     public partial class WebForm1 : System.Web.UI.Page
