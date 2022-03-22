@@ -45,6 +45,9 @@
  
         <br />
 
+        <asp:Button ID="Button6" runat="server" Text="Go to SQL Page"  OnClick="Button6_Click"/>
+ 
+        <br />
         <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
 
           <br />

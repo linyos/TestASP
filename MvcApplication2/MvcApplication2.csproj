@@ -119,6 +119,7 @@
     <Compile Include="ASP_Page\PanelPage.aspx.designer.cs">
       <DependentUpon>PanelPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ASP_Page\Student.cs" />
     <Compile Include="ASP_Page\UpdateFile.aspx.cs">
       <DependentUpon>UpdateFile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,6 +133,13 @@
     </Compile>
     <Compile Include="ASP_Page\Validator.aspx.designer.cs">
       <DependentUpon>Validator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP_Page\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP_Page\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Data.cs" />
     <Compile Include="Default.cs" />
@@ -159,6 +167,7 @@
     <Content Include="ASP_Page\PanelPage.aspx" />
     <Content Include="ASP_Page\UpdateFile.aspx" />
     <Content Include="ASP_Page\Validator.aspx" />
+    <Content Include="ASP_Page\WebForm2.aspx" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
